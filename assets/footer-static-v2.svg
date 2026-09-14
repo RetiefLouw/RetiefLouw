@@ -1,0 +1,30 @@
+<svg width="1200" height="420" viewBox="0 0 1200 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Canonical orange ASCII spinning donut fallback</title>
+  <desc id="desc">A static orange ASCII torus based on the canonical donut renderer for environments that do not animate SVG.</desc>
+  <rect width="1200" height="420" rx="18" fill="#0D0E10"/>
+  <g transform="translate(138 80)" fill="#FF8A3D" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14.2" letter-spacing="0">
+      <text x="0.00" y="0.0"></text>
+      <text x="281.16" y="14.2">$@@@$$$$$$@@@$</text>
+      <text x="247.08" y="28.4">$$$$############$#$$$$</text>
+      <text x="230.04" y="42.6">$####***!!!!!!!!!!***####$</text>
+      <text x="213.00" y="56.8">####**!!!!!!=====!!!!!!!**####</text>
+      <text x="195.96" y="71.0">*##***!!!!==;:::~~:::;==!!!!**###*</text>
+      <text x="187.44" y="85.2">!****!!!!=;;:~-,,,,,,-~:;;==!!!*****</text>
+      <text x="178.92" y="99.4">=****!!!==;:~,..........-~::==!!!****!</text>
+      <text x="178.92" y="113.6">!***!!!!=;:~-............,~:;==!!!***!</text>
+      <text x="178.92" y="127.8">!!**!!!==;:-,..        ...-~;==!!!**!!</text>
+      <text x="170.40" y="142.0">;=!!!!!!!==;~,.          .,~:;==!!!**!!;</text>
+      <text x="170.40" y="156.2">:=!!!**!!!!==;~          ~:=;==!!!!!!!=;</text>
+      <text x="178.92" y="170.4">=!!!********!!=        =!!!!!*****!!!=</text>
+      <text x="178.92" y="184.6">;=!!******#######**!*######*******!!=;</text>
+      <text x="178.92" y="198.8">~;=!!****###$$$$$@@@@$$$$####****!!=;-</text>
+      <text x="187.44" y="213.0">~:=!!****###$$$@@@@@@$$$###****!!=;~</text>
+      <text x="195.96" y="227.2">-:;=!!****###$$$$$$$$###****!!=;:-</text>
+      <text x="213.00" y="241.4">-:;=!!*******####*******!!=;:~</text>
+      <text x="230.04" y="255.6">~::==!!!**********!!!==::-</text>
+      <text x="247.08" y="269.8">.,~~;;;========;;;:~-.</text>
+      <text x="281.16" y="284.0">..,--------,..</text>
+      <text x="0.00" y="298.2"></text>
+  </g>
+</svg>
+
