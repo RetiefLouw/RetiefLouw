@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>WebGL Donut Render</title>
+  <style>
+    :root { color-scheme: dark; }
+    html, body { margin: 0; min-height: 100%; background: #0d0e10; }
+    body { display: grid; place-items: center; }
+    canvas { width: min(100vw, 1200px); height: min(70vh, 420px); display: block; }
+  </style>
+</head>
+<body>
+<canvas id="donut" width="1200" height="420" aria-label="Interactive orange WebGL torus"></canvas>
+<script>
+const canvas = document.getElementById("donut");
+const gl = canvas.getContext("webgl2");
+if (!gl) {
+  document.body.textContent = "WebGL2 is required for this render.";
+} else {
+  const vertex = `#version 300 es
+  in vec3 position;
+  in float shade;
+  uniform mat4 transform;
+  out float vShade;
+  void main() {
+    gl_Position = transform * vec4(position, 1.0);
+    gl_PointSize = 2.4;
+    vShade = shade;
+  }`;
+  const fragment = `#version 300 es
+  precision highp float;
+  in float vShade;
+  out vec4 color;
+  void main() {
+    color = vec4(1.0, 0.35 + vShade * 0.35, 0.08, 0.35 + vShade * 0.65);
+  }`;
+  const compile = (type, source) => {
+    const shader = gl.createShader(type);
+    gl.shaderSource(shader, source);
+    gl.compileShader(shader);
+    return shader;
+  };
+  const program = gl.createProgram();
+  gl.attachShader(program, compile(gl.VERTEX_SHADER, vertex));
+  gl.attachShader(program, compile(gl.FRAGMENT_SHADER, fragment));
+  gl.linkProgram(program);
+  const points = [];
+  for (let u = 0; u < Math.PI * 2; u += 0.09) {
+    for (let v = 0; v < Math.PI * 2; v += 0.12) {
+      const radius = 1.55 + 0.52 * Math.cos(v);
+      points.push(
+        radius * Math.cos(u),
+        radius * Math.sin(u),
+        0.52 * Math.sin(v),
+        0.5 + 0.5 * Math.cos(v)
+      );
+    }
+  }
+  const buffer = gl.createBuffer();
+  gl.bindBuffer(gl.ARRAY_BUFFER, buffer);
+  gl.bufferData(gl.ARRAY_BUFFER, new Float32Array(points), gl.STATIC_DRAW);
+  const position = gl.getAttribLocation(program, "position");
+  const shade = gl.getAttribLocation(program, "shade");
+  const transform = gl.getUniformLocation(program, "transform");
+  gl.enable(gl.BLEND);
+  gl.blendFunc(gl.SRC_ALPHA, gl.ONE);
+  const draw = (time) => {
+    const t = time * 0.00045, c = Math.cos(t), s = Math.sin(t);
+    const matrix = new Float32Array([
+      c, 0, -s, 0,
+      s * 0.35, 0.94, c * 0.35, 0,
+      s * 0.94, -0.35, c * 0.94, 0,
+      0, 0, 0, 1
+    ]);
+    gl.viewport(0, 0, canvas.width, canvas.height);
+    gl.clearColor(0.05, 0.055, 0.063, 1);
+    gl.clear(gl.COLOR_BUFFER_BIT);
+    gl.useProgram(program);
+    gl.uniformMatrix4fv(transform, false, matrix);
+    gl.enableVertexAttribArray(position);
+    gl.vertexAttribPointer(position, 3, gl.FLOAT, false, 16, 0);
+    gl.enableVertexAttribArray(shade);
+    gl.vertexAttribPointer(shade, 1, gl.FLOAT, false, 16, 12);
+    gl.drawArrays(gl.POINTS, 0, points.length / 4);
+    requestAnimationFrame(draw);
+  };
+  requestAnimationFrame(draw);
+}
+</script>
+</body>
+</html>

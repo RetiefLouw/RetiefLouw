@@ -58,6 +58,15 @@ Built automation tooling and designed a stress-testing PCB for self-piloting ele
 
 <div align="center">
 
-<img src="./assets/footer-v7.svg" alt="Animated orange ASCII spinning donut" width="100%" />
+<img src="./assets/footer-v9.svg" alt="Animated orange ASCII spinning donut" width="100%" />
 
 </div>
+
+## Footer options
+
+| Option | Notes |
+| --- | --- |
+| [Smooth SVG](./assets/footer-v9.svg) | Current choice with 60 poses at 50 fps and a continuous base layer for no flashing. |
+| [Static SVG fallback](./assets/footer-static.svg) | No animation for environments that do not animate SVG. |
+| [WebGL render](./assets/footer-webgl.html) | Interactive browser render with a real-time torus. |
+| Video export (MP4) | Best for external embeds. GitHub profile READMEs do not autoplay video inline. |
