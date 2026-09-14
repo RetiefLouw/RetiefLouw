@@ -30,7 +30,13 @@ Optimised and digitised manufacturing processes through IoT control systems.
 **Aerospace automation and electronics**<br />
 Built automation tooling and designed a stress-testing PCB for self-piloting electronics.
 
-## Selected work
+## Achievements
+
+- Cum Laude in every year of the BEng Mechatronics degree.
+- Ranked among the top three engineering students at Stellenbosch University in 2020.
+- Placed third nationally in the Red Bull Basement entrepreneurship competition.
+
+## Example work
 
 | Project | Focus |
 | --- | --- |
@@ -41,7 +47,5 @@ Built automation tooling and designed a stress-testing PCB for self-piloting ele
 <div align="center">
 
 <img src="./assets/footer.svg" alt="Animated orange signal and particles" width="100%" />
-
-*Build carefully. Keep the signal clear.*
 
 </div>

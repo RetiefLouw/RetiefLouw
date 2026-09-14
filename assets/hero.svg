@@ -61,9 +61,11 @@
     <text x="0" y="0" fill="#FF8A3D" font-size="14" font-weight="600" letter-spacing="2.4">Retief Louw</text>
     <text x="0" y="104" fill="#F5F2ED" font-size="92" font-weight="700" letter-spacing="-3">I build</text>
     <text x="2" y="157" fill="#A9ADB2" font-size="22" font-weight="400" letter-spacing="0.3">software, intelligence, and things that move.</text>
-    <rect x="2" y="190" width="42" height="3" rx="1.5" fill="url(#orange)">
-      <animate attributeName="width" values="42;92;42" dur="2.8s" repeatCount="indefinite"/>
-    </rect>
+    <path d="M2 193H330C350 193 353 176 370 176C386 176 389 210 405 210C421 210 424 177 440 177C456 177 459 205 475 205C491 205 494 184 510 184C526 184 529 201 545 201C561 201 564 189 580 189C596 189 599 197 615 197H740C760 197 766 161 786 161C806 161 812 221 832 221C852 221 858 166 878 166C898 166 904 213 924 213C944 213 950 178 970 178C990 178 996 206 1016 206C1036 206 1042 187 1062 187C1082 187 1088 198 1106 198" stroke="url(#orange)" stroke-width="1.7" stroke-linecap="round" fill="none" stroke-dasharray="18 24">
+      <animate attributeName="stroke-dashoffset" from="0" to="-210" dur="7.2s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-width" values="1.7;3.2;1.7;3.1;1.7;2.8;1.7;2.5;1.7" dur="7.2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.42;1;0.44;0.96;0.42;0.92;0.48;0.88;0.46" dur="7.2s" repeatCount="indefinite"/>
+    </path>
   </g>
 
 </svg>
