@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/hero-v3.svg" alt="Retief Louw — software engineer and machine learning researcher" width="100%" />
+<img src="./assets/hero-v4.svg" alt="Retief Louw — software engineer and machine learning researcher" width="100%" />
 
 <br />
 
