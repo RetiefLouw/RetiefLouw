@@ -1,0 +1,58 @@
+<svg width="1200" height="330" viewBox="0 0 1200 330" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Retief Louw — I build</title>
+  <desc id="desc">A dark minimalist animated hero with electric orange particles and modern sans-serif typography.</desc>
+  <defs>
+    <linearGradient id="orange" x1="150" y1="60" x2="1030" y2="270" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF8A3D"/>
+      <stop offset="1" stop-color="#FF5A00"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(910 110) rotate(130) scale(190)">
+      <stop stop-color="#FF6A00" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#FF6A00" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="330" rx="18" fill="#0D0E10"/>
+  <rect width="1200" height="330" rx="18" fill="url(#glow)"/>
+  <path d="M0 278C180 253 250 296 410 274C567 252 651 213 806 237C964 261 1026 300 1200 267" stroke="#242629" stroke-width="1"/>
+  <path d="M0 58C150 83 236 42 393 63C526 81 659 112 811 72C953 35 1060 44 1200 72" stroke="#242629" stroke-width="1"/>
+
+  <g opacity="0.9">
+    <circle cx="1015" cy="95" r="3" fill="#FF6A00">
+      <animate attributeName="cy" values="95;72;95" dur="4.2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.35;1;0.35" dur="4.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1090" cy="202" r="2" fill="#FF8A3D">
+      <animate attributeName="cx" values="1090;1060;1090" dur="5.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="944" cy="256" r="2" fill="#FF6A00">
+      <animate attributeName="cy" values="256;228;256" dur="3.6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1160" cy="116" r="1.5" fill="#FFB07A">
+      <animate attributeName="cy" values="116;143;116" dur="3.1s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <g stroke="#FF6A00" stroke-opacity="0.28" stroke-width="1">
+    <path d="M1015 95L1090 202L944 256L1015 95Z"/>
+    <path d="M1090 202L1160 116"/>
+  </g>
+
+  <g transform="translate(74 60)" font-family="Avenir Next, Inter, ui-sans-serif, system-ui, sans-serif">
+    <text x="0" y="0" fill="#FF8A3D" font-size="14" font-weight="700" letter-spacing="4">RETIEF LOUW</text>
+    <text x="0" y="104" fill="#F5F2ED" font-size="92" font-weight="700" letter-spacing="-4">I BUILD</text>
+    <text x="2" y="157" fill="#A9ADB2" font-size="22" font-weight="400" letter-spacing="0.3">software, intelligence, and things that move.</text>
+    <rect x="2" y="190" width="42" height="3" rx="1.5" fill="url(#orange)">
+      <animate attributeName="width" values="42;92;42" dur="2.8s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <g transform="translate(1034 52)" font-family="SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11" fill="#747A80">
+    <text x="0" y="0">/ signal: online</text>
+    <text x="0" y="20">/ focus: useful systems</text>
+    <text x="0" y="40">/ status: iterating</text>
+  </g>
+</svg>
