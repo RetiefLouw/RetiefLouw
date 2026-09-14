@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/hero-v4.svg" alt="Retief Louw — software engineer and machine learning researcher" width="100%" />
+<img src="./assets/hero-v5.svg" alt="Retief Louw — software engineer and machine learning researcher" width="100%" />
 
 <br />
 
@@ -58,18 +58,6 @@ Built automation tooling and designed a stress-testing PCB for self-piloting ele
 
 <div align="center">
 
-<img src="./assets/footer-v11.gif" alt="Animated orange ASCII spinning donut" width="100%" />
+<img src="./assets/footer-v2.svg" alt="Animated orange signal and particles" width="100%" />
 
 </div>
-
-## Footer options
-
-| Option | Notes |
-| --- | --- |
-| [Smooth GIF](./assets/footer-v11.gif) | Current choice with 60 canonical frames at 50 fps without SVG compositing artifacts. |
-| [Canonical SVG](./assets/footer-v10.svg) | Vector alternative with the same canonical shape. GitHub may composite animated SVG frames. |
-| [Static SVG fallback](./assets/footer-static-v2.svg) | No animation for environments that do not animate SVG. |
-| [WebGL render](./assets/footer-webgl.html) | Interactive browser render with a real-time torus. |
-| [Video export (MP4)](./assets/footer-v11.mp4) | Best for external embeds. GitHub profile READMEs do not autoplay video inline. |
-
-The donut shape follows the canonical projection described in [Donut math](https://www.a1k0n.net/2011/07/20/donut-math.html).
