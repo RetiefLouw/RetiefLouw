@@ -1,23 +1,35 @@
 <div align="center">
 
-<img src="./assets/hero-v2.svg" alt="Retief Louw — software engineer and machine learning researcher" width="100%" />
+<img src="./assets/hero-v3.svg" alt="Retief Louw — software engineer and machine learning researcher" width="100%" />
 
 <br />
 
-Software engineer and machine learning researcher building useful systems where software, language, and hardware meet.
+Software engineer and machine learning researcher building useful systems where software, language and hardware meet.
 
 <br />
 <br />
 
-<a href="mailto:retieflouw@gmail.com">Email</a>
+<a href="mailto:retieflouw@gmail.com"><img src="./assets/icons/mail.svg" alt="" width="16" height="16" /> Email</a>
 &nbsp; · &nbsp;
-<a href="https://www.linkedin.com/in/retieflouw/">LinkedIn</a>
+<a href="https://www.linkedin.com/in/retieflouw/"><img src="./assets/icons/link.svg" alt="" width="16" height="16" /> LinkedIn</a>
 
 </div>
 
 ## Skills
 
-Machine learning · Speech and LLMs · Python · IoT · Automation · Data science · Mechatronics
+Machine learning · Speech and LLMs · Mobile app development · WhatsApp bot development · Web app development · IoT · Automation · Data science · Mechatronics
+
+<p align="center">
+  <img src="./assets/icons/brain-circuit.svg" alt="" width="20" height="20" /> Machine learning
+  &nbsp; · &nbsp;
+  <img src="./assets/icons/smartphone.svg" alt="" width="20" height="20" /> Mobile apps
+  &nbsp; · &nbsp;
+  <img src="./assets/icons/message-circle.svg" alt="" width="20" height="20" /> WhatsApp bots
+  &nbsp; · &nbsp;
+  <img src="./assets/icons/globe.svg" alt="" width="20" height="20" /> Web apps
+  &nbsp; · &nbsp;
+  <img src="./assets/icons/workflow.svg" alt="" width="20" height="20" /> Automation
+</p>
 
 ## Experience
 
@@ -33,8 +45,8 @@ Built automation tooling and designed a stress-testing PCB for self-piloting ele
 ## Achievements
 
 - Cum Laude in every year of the BEng Mechatronics degree.
-- Ranked among the top three engineering students at Stellenbosch University in 2020.
-- Placed third nationally in the Red Bull Basement entrepreneurship competition.
+- Dean's Award as top of the Mechatronic Engineering class.
+- Top 10 in the Programming and Mathematics Olympiads.
 
 ## Example work
 
@@ -46,6 +58,6 @@ Built automation tooling and designed a stress-testing PCB for self-piloting ele
 
 <div align="center">
 
-<img src="./assets/footer.svg" alt="Animated orange signal and particles" width="100%" />
+<img src="./assets/footer-v2.svg" alt="Animated orange signal and particles" width="100%" />
 
 </div>

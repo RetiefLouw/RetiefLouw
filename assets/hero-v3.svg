@@ -1,6 +1,6 @@
 <svg width="1200" height="330" viewBox="0 0 1200 330" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">Retief Louw — I build</title>
-  <desc id="desc">A dark minimalist animated hero with an orange waveform, particles, and modern sans-serif typography.</desc>
+  <desc id="desc">A dark minimalist animated hero with a straight orange pulse line, particles and modern sans-serif typography.</desc>
   <defs>
     <linearGradient id="orange" x1="150" y1="60" x2="1030" y2="270" gradientUnits="userSpaceOnUse">
       <stop stop-color="#FF8A3D"/>
@@ -60,11 +60,11 @@
   <g transform="translate(74 60)" font-family="Avenir Next, Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
     <text x="0" y="0" fill="#FF8A3D" font-size="14" font-weight="600" letter-spacing="2.4">Retief Louw</text>
     <text x="0" y="104" fill="#F5F2ED" font-size="92" font-weight="700" letter-spacing="-3">I build</text>
-    <text x="2" y="157" fill="#A9ADB2" font-size="22" font-weight="400" letter-spacing="0.3">software, intelligence, and things that move.</text>
-    <path d="M2 193H330C350 193 353 176 370 176C386 176 389 210 405 210C421 210 424 177 440 177C456 177 459 205 475 205C491 205 494 184 510 184C526 184 529 201 545 201C561 201 564 189 580 189C596 189 599 197 615 197H740C760 197 766 161 786 161C806 161 812 221 832 221C852 221 858 166 878 166C898 166 904 213 924 213C944 213 950 178 970 178C990 178 996 206 1016 206C1036 206 1042 187 1062 187C1082 187 1088 198 1106 198" stroke="url(#orange)" stroke-width="1.7" stroke-linecap="round" fill="none" stroke-dasharray="18 24">
-      <animate attributeName="stroke-dashoffset" from="0" to="-210" dur="7.2s" repeatCount="indefinite"/>
-      <animate attributeName="stroke-width" values="1.7;3.2;1.7;3.1;1.7;2.8;1.7;2.5;1.7" dur="7.2s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0.42;1;0.44;0.96;0.42;0.92;0.48;0.88;0.46" dur="7.2s" repeatCount="indefinite"/>
+    <text x="2" y="157" fill="#A9ADB2" font-size="22" font-weight="400" letter-spacing="0.3">software, intelligence and things that move.</text>
+    <path d="M2 193H1106" stroke="url(#orange)" stroke-width="1.7" stroke-linecap="round" fill="none" stroke-dasharray="78 12 7 34 54 10 3 26 96 18 14 42 5 30">
+      <animate attributeName="stroke-dashoffset" from="0" to="-429" dur="7.2s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-width" values="1.7;3.2;1.7;3.1;1.7;2.8;1.7;2.5;1.7" dur="7.2s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.06;0.12;0.18;0.24;0.42;0.62;0.8;1" keySplines="0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1"/>
+      <animate attributeName="opacity" values="0.42;1;0.44;0.96;0.42;0.92;0.48;0.88;0.46" dur="7.2s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.06;0.12;0.18;0.24;0.42;0.62;0.8;1" keySplines="0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1"/>
     </path>
   </g>
 
