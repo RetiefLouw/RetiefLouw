@@ -58,6 +58,6 @@ Built automation tooling and designed a stress-testing PCB for self-piloting ele
 
 <div align="center">
 
-<img src="./assets/footer-v4.svg" alt="Animated orange ASCII spinning donut" width="100%" />
+<img src="./assets/footer-v7.svg" alt="Animated orange ASCII spinning donut" width="100%" />
 
 </div>
