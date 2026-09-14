@@ -1,0 +1,220 @@
+<svg width="1200" height="300" viewBox="0 0 1200 300" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Animated orange ASCII spinning donut</title>
+  <desc id="desc">A footer-only animation of an orange ASCII torus rotating smoothly on a dark background.</desc>
+  <defs>
+    <radialGradient id="donutGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF6A00" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#FF6A00" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="donutBlur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="26"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="300" rx="18" fill="#0D0E10"/>
+  <circle cx="600" cy="150" r="170" fill="url(#donutGlow)" filter="url(#donutBlur)">
+    <animate attributeName="r" values="150;190;150" dur="4.8s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.45;0.8;0.45" dur="4.8s" repeatCount="indefinite"/>
+  </circle>
+  <g transform="translate(300 38)" text-anchor="start" fill="#FF8A3D" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="10.5" letter-spacing="0" xml:space="preserve">
+    <g opacity="1">
+      <text x="0" y="0" xml:space="preserve">                              $$$$$$$$$$$$$$$$$$$$$</text>
+      <text x="0" y="10.5" xml:space="preserve">                           #####***################$$$</text>
+      <text x="0" y="21" xml:space="preserve">                         #*****!!!******!**!!!*****#####</text>
+      <text x="0" y="31.5" xml:space="preserve">                       *!*!!=!!!!==========!!!!!!!!*******</text>
+      <text x="0" y="42" xml:space="preserve">                      !!!====;;;;;;;:::;;;;;====!!!!!*!!***</text>
+      <text x="0" y="52.5" xml:space="preserve">                     ====;;;;::::~~~~~~~~~:::::;;;===!=!!!!!</text>
+      <text x="0" y="63" xml:space="preserve">                     =;;;::~~~----~~~~:;;;;===!!!!</text>
+      <text x="0" y="73.5" xml:space="preserve">                     :::~~--..............-~~~::;;;====;</text>
+      <text x="0" y="84" xml:space="preserve">                     :~~--....................--~~:::;;=;</text>
+      <text x="0" y="94.5" xml:space="preserve">                     ~~--.........     ..........--~~~:::;:</text>
+      <text x="0" y="105" xml:space="preserve">                     ---..........~         .......--~~~:::</text>
+      <text x="0" y="115.5" xml:space="preserve">                      ........;!!      ;.......--~~~</text>
+      <text x="0" y="126" xml:space="preserve">                       ..~:!*#$@@$#!;~........------</text>
+      <text x="0" y="136.5" xml:space="preserve">                        .--~~:=!*#$$$$#!=:-.....</text>
+      <text x="0" y="147" xml:space="preserve">                         ..--~::;=!!**##**!=;~~-.</text>
+      <text x="0" y="157.5" xml:space="preserve">                            .-~~:;=!*!!!=!==;:~--...</text>
+      <text x="0" y="168" xml:space="preserve">                               ..-~:;;==;;;;:~~-...</text>
+      <text x="0" y="178.5" xml:space="preserve">                                    ........</text>
+      <text x="0" y="189" xml:space="preserve"></text>
+      <text x="0" y="199.5" xml:space="preserve"></text>
+      <text x="0" y="210" xml:space="preserve"></text>
+      <text x="0" y="220.5" xml:space="preserve"></text>
+      <animate attributeName="opacity" values="1;0;0;0;1" keyTimes="0;0.12;0.62;0.88;1" dur="4.8s" begin="0s" repeatCount="indefinite" />
+    </g>
+    <g opacity="0">
+      <text x="0" y="0" xml:space="preserve">                               $$#$$##$$$$$$$$$$$$$</text>
+      <text x="0" y="10.5" xml:space="preserve">                            #*************#####$$$$$$$</text>
+      <text x="0" y="21" xml:space="preserve">                           !!!=!!!!!!!!!!!****#######$##</text>
+      <text x="0" y="31.5" xml:space="preserve">                          ==============!!!!!!****#*######</text>
+      <text x="0" y="42" xml:space="preserve">                         ;;;;;::::::::;;;=;==!!!!*******##*</text>
+      <text x="0" y="52.5" xml:space="preserve">                        ;;::~~~------~~~~::;;;===!!!!*!*****</text>
+      <text x="0" y="63" xml:space="preserve">                        ::~--........--~~~:;;====!!!!!!**!</text>
+      <text x="0" y="73.5" xml:space="preserve">                        ~~-..............--~~::;;====!!!!!!!</text>
+      <text x="0" y="84" xml:space="preserve">                        ~-.................-~~::;;;====!=!!=</text>
+      <text x="0" y="94.5" xml:space="preserve">                        --..........    .....-~~::;;;=======</text>
+      <text x="0" y="105" xml:space="preserve">                         ........::     ....--~:::;;;;===;</text>
+      <text x="0" y="115.5" xml:space="preserve">                         .------~~:!**     .....--~~:::;;;;;;</text>
+      <text x="0" y="126" xml:space="preserve">                          .--~~::;!*#$$$$#*!-....--~~~:::::::</text>
+      <text x="0" y="136.5" xml:space="preserve">                           .-~::;=!#$$@$$#!;-....--~~~~:::::</text>
+      <text x="0" y="147" xml:space="preserve">                             ~:=!!**####*=;~..----~~~~~~-</text>
+      <text x="0" y="157.5" xml:space="preserve">                               :;=!!!!!!==;~-----------</text>
+      <text x="0" y="168" xml:space="preserve">                                 .-:;===;;;::~------</text>
+      <text x="0" y="178.5" xml:space="preserve">                                    .-~::::~~----..</text>
+      <text x="0" y="189" xml:space="preserve">                                        ............</text>
+      <text x="0" y="199.5" xml:space="preserve"></text>
+      <text x="0" y="210" xml:space="preserve"></text>
+      <text x="0" y="220.5" xml:space="preserve"></text>
+      <animate attributeName="opacity" values="1;0;0;0;1" keyTimes="0;0.12;0.62;0.88;1" dur="4.8s" begin="-0.6s" repeatCount="indefinite" />
+    </g>
+    <g opacity="0">
+      <text x="0" y="0" xml:space="preserve">                                    $$#$$$$$$$@@@@$</text>
+      <text x="0" y="10.5" xml:space="preserve">                                 *******######$$$$$$$$</text>
+      <text x="0" y="21" xml:space="preserve">                               !!====!!!!***#*###$$$$$$#</text>
+      <text x="0" y="31.5" xml:space="preserve">                              =;=;;;;;=;!!!!!***#####$$$##</text>
+      <text x="0" y="42" xml:space="preserve">                             ;;:::~~~::;;====!!***#########</text>
+      <text x="0" y="52.5" xml:space="preserve">                            ;::~---~::;===!!****#*#####*</text>
+      <text x="0" y="63" xml:space="preserve">                            :~-.......--::;==!!!***********</text>
+      <text x="0" y="73.5" xml:space="preserve">                            ~~-..........-~:;;==!!!*********!</text>
+      <text x="0" y="84" xml:space="preserve">                            ~--..........-~:;;===!!!!!****!!</text>
+      <text x="0" y="94.5" xml:space="preserve">                            ~~~-......  ..~~:;;;==!!!!!!!!!!;</text>
+      <text x="0" y="105" xml:space="preserve">                            :::::~~---   ..-~::;;===!!!!!!!!=;</text>
+      <text x="0" y="115.5" xml:space="preserve">                            ~;;;===***!    .-~::;;;====!!!!==;</text>
+      <text x="0" y="126" xml:space="preserve">                            -;=!*##$$$$#!  .-~::;;;;========;;</text>
+      <text x="0" y="136.5" xml:space="preserve">                             :=!*#$@@@$#*=---~~:::;;;;======;;</text>
+      <text x="0" y="147" xml:space="preserve">                              :!!*#$$##*=:~--~~::::;;;;;;;;;;:</text>
+      <text x="0" y="157.5" xml:space="preserve">                               :==!***!=;:~~~~~:::::;;;;;;:::</text>
+      <text x="0" y="168" xml:space="preserve">                                :=======;::~~~~::::::::::::~-</text>
+      <text x="0" y="178.5" xml:space="preserve">                                 :;;:;;:::~~~~~~~:::::~~~-</text>
+      <text x="0" y="189" xml:space="preserve">                                   ~:::::~~~~~~~~~~~~~--</text>
+      <text x="0" y="199.5" xml:space="preserve">                                     .--------------.</text>
+      <text x="0" y="210" xml:space="preserve">                                         ............</text>
+      <text x="0" y="220.5" xml:space="preserve"></text>
+      <animate attributeName="opacity" values="1;0;0;0;1" keyTimes="0;0.12;0.62;0.88;1" dur="4.8s" begin="-1.2s" repeatCount="indefinite" />
+    </g>
+    <g opacity="0">
+      <text x="0" y="0" xml:space="preserve"></text>
+      <text x="0" y="10.5" xml:space="preserve">                                        #$##$$$$@@@@@</text>
+      <text x="0" y="21" xml:space="preserve">                                     **!****###$$$$$@@$$</text>
+      <text x="0" y="31.5" xml:space="preserve">                                   !==;;;==!**###$$$$$$$$#</text>
+      <text x="0" y="42" xml:space="preserve">                                 !=;;:~:::;==***###$$$$$$$#</text>
+      <text x="0" y="52.5" xml:space="preserve">                                =;;:~~---~:;=!!**###$$$$$$##</text>
+      <text x="0" y="63" xml:space="preserve">                               ==;:-....~;;=!***##########*</text>
+      <text x="0" y="73.5" xml:space="preserve">                              ==;:~-......-:;=!!**##########*=</text>
+      <text x="0" y="84" xml:space="preserve">                              ==;;~-......-:;=!!***########**!</text>
+      <text x="0" y="94.5" xml:space="preserve">                             =!!=;:~-... -:;=!!*****##******=</text>
+      <text x="0" y="105" xml:space="preserve">                             !*###*=:~.  ~;;=!!***********!!=</text>
+      <text x="0" y="115.5" xml:space="preserve">                            :*#$$$$#*!~  ~:;=!!!!*********!!==</text>
+      <text x="0" y="126" xml:space="preserve">                            :*#$@@@$$*= ~:;==!!!!*****!**!!!=;</text>
+      <text x="0" y="136.5" xml:space="preserve">                            :!#$$@$$#**:;;===!!!!!!!!!!!!!==;:</text>
+      <text x="0" y="147" xml:space="preserve">                            ~!*#$##*!=;======!!!!!!!!!!!===;:</text>
+      <text x="0" y="157.5" xml:space="preserve">                             =!****!!==========!!!!!!!!===;:-</text>
+      <text x="0" y="168" xml:space="preserve">                             :=!!!!!====================;;:~</text>
+      <text x="0" y="178.5" xml:space="preserve">                             ;;=====================;;::~-</text>
+      <text x="0" y="189" xml:space="preserve">                              -::;;;=;;=;;;=;=;;;;;;;::~-</text>
+      <text x="0" y="199.5" xml:space="preserve">                               .~~;;;;;;;;;;;;:;;:::~~-</text>
+      <text x="0" y="210" xml:space="preserve">                                 -~~~:::::::::~~~~--.</text>
+      <text x="0" y="220.5" xml:space="preserve">                                    .---------..</text>
+      <animate attributeName="opacity" values="1;0;0;0;1" keyTimes="0;0.12;0.62;0.88;1" dur="4.8s" begin="-1.8s" repeatCount="indefinite" />
+    </g>
+    <g opacity="0">
+      <text x="0" y="0" xml:space="preserve"></text>
+      <text x="0" y="10.5" xml:space="preserve"></text>
+      <text x="0" y="21" xml:space="preserve"></text>
+      <text x="0" y="31.5" xml:space="preserve">                                          #####$$$$@@@@$</text>
+      <text x="0" y="42" xml:space="preserve">                                       #*!!!!!**##$$$@@@@$#</text>
+      <text x="0" y="52.5" xml:space="preserve">                                    #*!==:::;=!**#$$$@@@@$$$</text>
+      <text x="0" y="63" xml:space="preserve">                                 !#*!==;::~~;=**#$$$$$$$$$$#</text>
+      <text x="0" y="73.5" xml:space="preserve">                                ###*!=;~-..~=**#$$$$$$$$$$##*</text>
+      <text x="0" y="84" xml:space="preserve">                              #$$#*!=;~....=!*##$$$$$$$$$###*=</text>
+      <text x="0" y="94.5" xml:space="preserve">                            !$$$$$#*!;~....=**##$$$$$$$$$$##**=</text>
+      <text x="0" y="105" xml:space="preserve">                           *$@@@$$#!=;-..;!*####$$$$$$$####**!;</text>
+      <text x="0" y="115.5" xml:space="preserve">                          !$$@@@$$#!;~.=!*######$$$$#####***!!;</text>
+      <text x="0" y="126" xml:space="preserve">                          #$$$$$##*!;!**################***!=;</text>
+      <text x="0" y="136.5" xml:space="preserve">                         !##$$##******##############*****!!!=:</text>
+      <text x="0" y="147" xml:space="preserve">                         !*######################******!!!=;:</text>
+      <text x="0" y="157.5" xml:space="preserve">                         !****#############*#*******!*!!=;;:</text>
+      <text x="0" y="168" xml:space="preserve">                         ==********************!*!!!!===;:~</text>
+      <text x="0" y="178.5" xml:space="preserve">                         ;;=!!!*!****!*!*!*!!*!!!!===;;:~</text>
+      <text x="0" y="189" xml:space="preserve">                         -;;;===!!!!!!!!!!!!!!====;;::~-</text>
+      <text x="0" y="199.5" xml:space="preserve">                          -~:;;;=============;;;;::~-</text>
+      <text x="0" y="210" xml:space="preserve">                            -~:::;;;;;;;;;;::::~~-.</text>
+      <text x="0" y="220.5" xml:space="preserve">                              .-~~~~~~~~~~---.</text>
+      <animate attributeName="opacity" values="1;0;0;0;1" keyTimes="0;0.12;0.62;0.88;1" dur="4.8s" begin="-2.4s" repeatCount="indefinite" />
+    </g>
+    <g opacity="0">
+      <text x="0" y="0" xml:space="preserve"></text>
+      <text x="0" y="10.5" xml:space="preserve"></text>
+      <text x="0" y="21" xml:space="preserve"></text>
+      <text x="0" y="31.5" xml:space="preserve"></text>
+      <text x="0" y="42" xml:space="preserve"></text>
+      <text x="0" y="52.5" xml:space="preserve">                                          $$$$$$$$$$$</text>
+      <text x="0" y="63" xml:space="preserve">                                  $@@$$$$###****###$$$@@$$</text>
+      <text x="0" y="73.5" xml:space="preserve">                              $@@@@$$#**!!!=;;;=!*#$$@@@@@$$</text>
+      <text x="0" y="84" xml:space="preserve">                           $@@@$$$##***!!==;:-~!##$$@@@@@@$$#</text>
+      <text x="0" y="94.5" xml:space="preserve">                        #$$$$$$#**!==!=;:-*##$$@@@@@@@$$$#*</text>
+      <text x="0" y="105" xml:space="preserve">                      *$$$$$$##*!=;:;~-!##$$$$@@@@@@@@@$$$$#*=</text>
+      <text x="0" y="115.5" xml:space="preserve">                     *#$$$$$$$$$$###$$$$$$$$@@@@@@@@@$$$$###**=</text>
+      <text x="0" y="126" xml:space="preserve">                    =*#$$$$$$$$$$$$$$$@@@@@@@@@@@$$$$$$####**!;</text>
+      <text x="0" y="136.5" xml:space="preserve">                    !*##$$$$$$$$$$$$$$$$$$$$$$$$$$$$#####**!=;:</text>
+      <text x="0" y="147" xml:space="preserve">                    !!*####$$$$$$$$$$$$$$$$$$$$$$####****!==;:</text>
+      <text x="0" y="157.5" xml:space="preserve">                    =!!**##############$#########****!!!!==;:</text>
+      <text x="0" y="168" xml:space="preserve">                    :=!!!!*********#####**********!!!=!==;:-</text>
+      <text x="0" y="178.5" xml:space="preserve">                     :;==!!!!!!!!!!****!!*!***!!!!!=;=;::-</text>
+      <text x="0" y="189" xml:space="preserve">                      -:;;====!!!!!!!!!!!!!!====;;;;:~~.</text>
+      <text x="0" y="199.5" xml:space="preserve">                        -~:::;;;======;;;==;;::::~~-</text>
+      <text x="0" y="210" xml:space="preserve">                           ---~~::::::~~~:~~~--.</text>
+      <text x="0" y="220.5" xml:space="preserve">                               .......</text>
+      <animate attributeName="opacity" values="1;0;0;0;1" keyTimes="0;0.12;0.62;0.88;1" dur="4.8s" begin="-3.0s" repeatCount="indefinite" />
+    </g>
+    <g opacity="0">
+      <text x="0" y="0" xml:space="preserve"></text>
+      <text x="0" y="10.5" xml:space="preserve"></text>
+      <text x="0" y="21" xml:space="preserve"></text>
+      <text x="0" y="31.5" xml:space="preserve"></text>
+      <text x="0" y="42" xml:space="preserve"></text>
+      <text x="0" y="52.5" xml:space="preserve"></text>
+      <text x="0" y="63" xml:space="preserve">                       #$$$$$$######$$$$@@@$</text>
+      <text x="0" y="73.5" xml:space="preserve">                    *$$@@@$$$#*!!=!=!***##$$@@@@@$</text>
+      <text x="0" y="84" xml:space="preserve">                   #$$@@@@@$$$$#*~~::==!!!*####$$$$$$$</text>
+      <text x="0" y="94.5" xml:space="preserve">                  *#$$$@@@@@@@@$$$$#!~:;=!*=!!!**###$$$$*</text>
+      <text x="0" y="105" xml:space="preserve">                 =*##$$$$$@@@@@@@@@$$$$$$$###***####$$$$$#!</text>
+      <text x="0" y="115.5" xml:space="preserve">                 =!*###$$$$$$@@@@@@@@@@@@@@$$$$$$$$$$$$$$$#*</text>
+      <text x="0" y="126" xml:space="preserve">                 ;!!**###$$$$$$$$$@@$@@@@@@@@@$$$$$$$$$$$##*=</text>
+      <text x="0" y="136.5" xml:space="preserve">                 :;=!!***####$$$$$$$$$$$$$$$$$$$$$$$$$$###**=</text>
+      <text x="0" y="147" xml:space="preserve">                  :;==!******#########$$$$$$$$$$$#######***=;</text>
+      <text x="0" y="157.5" xml:space="preserve">                   :;;=!!!!*******###################***!!!!;</text>
+      <text x="0" y="168" xml:space="preserve">                    -::;;==!!!!*!******************!!!!!===;</text>
+      <text x="0" y="178.5" xml:space="preserve">                      ~~:;;;==!!=!!!!!!!!!!!!*!!!!!!===;;:</text>
+      <text x="0" y="189" xml:space="preserve">                        .~~::;;;;================;;;;::~-</text>
+      <text x="0" y="199.5" xml:space="preserve">                           ..--~~~::::::;;;;;;::::~~~--.</text>
+      <text x="0" y="210" xml:space="preserve">                                ..------~~~~---.</text>
+      <text x="0" y="220.5" xml:space="preserve"></text>
+      <animate attributeName="opacity" values="1;0;0;0;1" keyTimes="0;0.12;0.62;0.88;1" dur="4.8s" begin="-3.6s" repeatCount="indefinite" />
+    </g>
+    <g opacity="0">
+      <text x="0" y="0" xml:space="preserve"></text>
+      <text x="0" y="10.5" xml:space="preserve"></text>
+      <text x="0" y="21" xml:space="preserve"></text>
+      <text x="0" y="31.5" xml:space="preserve">                       $@@@@$$$###</text>
+      <text x="0" y="42" xml:space="preserve">                     $$$@@@@$$$#*!!=!*</text>
+      <text x="0" y="52.5" xml:space="preserve">                   *#$$$@@@@@$$$#*!::;=!*</text>
+      <text x="0" y="63" xml:space="preserve">                   *#$$$$$$@$$$$$#*!~:;=!*</text>
+      <text x="0" y="73.5" xml:space="preserve">                  !*###$$$$$$$$$$$##*=-:==*##*</text>
+      <text x="0" y="84" xml:space="preserve">                  =***###$$$$$$$$$$$##*-:=!*#$$#</text>
+      <text x="0" y="94.5" xml:space="preserve">                  ;!!*#####$$$$$$$$$$###*;!#$$$@$*</text>
+      <text x="0" y="105" xml:space="preserve">                  ;=!!***####$$$$$$$$$####*=#$@@@@$</text>
+      <text x="0" y="115.5" xml:space="preserve">                   ;=!*!**#*####$##$#######**!#$$$$$#</text>
+      <text x="0" y="126" xml:space="preserve">                   ~;==!!*****################***!*##*</text>
+      <text x="0" y="136.5" xml:space="preserve">                    ~;;=!!!!******#############********</text>
+      <text x="0" y="147" xml:space="preserve">                     ~:;;==!!!!******#*#*##*##*********!</text>
+      <text x="0" y="157.5" xml:space="preserve">                      -::;====!!!!!*!****************!!=</text>
+      <text x="0" y="168" xml:space="preserve">                        -~:;;====!!!!!!!!!!*!*!!!!!!!!!=~</text>
+      <text x="0" y="178.5" xml:space="preserve">                         .~~::;;====!==!!!!!!!!=!!===;:</text>
+      <text x="0" y="189" xml:space="preserve">                            -~~::;;;=;==============;;:</text>
+      <text x="0" y="199.5" xml:space="preserve">                              .--~~:::::;;;;;;;;;;:::-</text>
+      <text x="0" y="210" xml:space="preserve">                                 .--~~~~::::~::~~--</text>
+      <text x="0" y="220.5" xml:space="preserve">                                     ...-..</text>
+      <animate attributeName="opacity" values="1;0;0;0;1" keyTimes="0;0.12;0.62;0.88;1" dur="4.8s" begin="-4.2s" repeatCount="indefinite" />
+    </g>
+  </g>
+</svg>
