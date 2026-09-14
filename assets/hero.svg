@@ -6,33 +6,49 @@
       <stop stop-color="#FF8A3D"/>
       <stop offset="1" stop-color="#FF5A00"/>
     </linearGradient>
-    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(910 110) rotate(130) scale(190)">
-      <stop stop-color="#FF6A00" stop-opacity="0.22"/>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop stop-color="#FF6A00" stop-opacity="0.28"/>
       <stop offset="1" stop-color="#FF6A00" stop-opacity="0"/>
     </radialGradient>
+    <linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#FF6A00" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#FF8A3D" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#FF6A00" stop-opacity="0"/>
+    </linearGradient>
     <filter id="blur" x="-50%" y="-50%" width="200%" height="200%">
       <feGaussianBlur stdDeviation="18"/>
     </filter>
   </defs>
 
   <rect width="1200" height="330" rx="18" fill="#0D0E10"/>
-  <rect width="1200" height="330" rx="18" fill="url(#glow)"/>
+  <circle cx="930" cy="100" r="230" fill="url(#glow)" opacity="0.75" filter="url(#blur)">
+    <animate attributeName="cx" values="860;1100;820;860" dur="8s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="100;205;62;100" dur="8s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="210;290;185;210" dur="8s" repeatCount="indefinite"/>
+  </circle>
+  <rect x="-260" y="0" width="540" height="330" fill="url(#sweep)" opacity="0.18">
+    <animate attributeName="x" values="-260;1220;-260" dur="9s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.45 0 0.2 1;0.45 0 0.2 1"/>
+  </rect>
   <path d="M0 278C180 253 250 296 410 274C567 252 651 213 806 237C964 261 1026 300 1200 267" stroke="#242629" stroke-width="1"/>
   <path d="M0 58C150 83 236 42 393 63C526 81 659 112 811 72C953 35 1060 44 1200 72" stroke="#242629" stroke-width="1"/>
 
   <g opacity="0.9">
     <circle cx="1015" cy="95" r="3" fill="#FF6A00">
-      <animate attributeName="cy" values="95;72;95" dur="4.2s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0.35;1;0.35" dur="4.2s" repeatCount="indefinite"/>
+      <animate attributeName="cx" values="1015;1130;910;1015" dur="5.2s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="95;52;146;95" dur="5.2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.35;1;0.45;0.35" dur="5.2s" repeatCount="indefinite"/>
     </circle>
     <circle cx="1090" cy="202" r="2" fill="#FF8A3D">
-      <animate attributeName="cx" values="1090;1060;1090" dur="5.5s" repeatCount="indefinite"/>
+      <animate attributeName="cx" values="1090;1018;1145;1090" dur="6.5s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="202;248;178;202" dur="6.5s" repeatCount="indefinite"/>
     </circle>
     <circle cx="944" cy="256" r="2" fill="#FF6A00">
-      <animate attributeName="cy" values="256;228;256" dur="3.6s" repeatCount="indefinite"/>
+      <animate attributeName="cx" values="944;885;1008;944" dur="4.4s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="256;218;274;256" dur="4.4s" repeatCount="indefinite"/>
     </circle>
     <circle cx="1160" cy="116" r="1.5" fill="#FFB07A">
-      <animate attributeName="cy" values="116;143;116" dur="3.1s" repeatCount="indefinite"/>
+      <animate attributeName="cx" values="1160;1080;1174;1160" dur="3.8s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="116;164;78;116" dur="3.8s" repeatCount="indefinite"/>
     </circle>
   </g>
 
@@ -41,18 +57,13 @@
     <path d="M1090 202L1160 116"/>
   </g>
 
-  <g transform="translate(74 60)" font-family="Avenir Next, Inter, ui-sans-serif, system-ui, sans-serif">
-    <text x="0" y="0" fill="#FF8A3D" font-size="14" font-weight="700" letter-spacing="4">RETIEF LOUW</text>
-    <text x="0" y="104" fill="#F5F2ED" font-size="92" font-weight="700" letter-spacing="-4">I BUILD</text>
+  <g transform="translate(74 60)" font-family="Avenir Next, Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+    <text x="0" y="0" fill="#FF8A3D" font-size="14" font-weight="600" letter-spacing="2.4">Retief Louw</text>
+    <text x="0" y="104" fill="#F5F2ED" font-size="92" font-weight="700" letter-spacing="-3">I build</text>
     <text x="2" y="157" fill="#A9ADB2" font-size="22" font-weight="400" letter-spacing="0.3">software, intelligence, and things that move.</text>
     <rect x="2" y="190" width="42" height="3" rx="1.5" fill="url(#orange)">
       <animate attributeName="width" values="42;92;42" dur="2.8s" repeatCount="indefinite"/>
     </rect>
   </g>
 
-  <g transform="translate(1034 52)" font-family="SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11" fill="#747A80">
-    <text x="0" y="0">/ signal: online</text>
-    <text x="0" y="20">/ focus: useful systems</text>
-    <text x="0" y="40">/ status: iterating</text>
-  </g>
 </svg>

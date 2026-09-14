@@ -4,7 +4,7 @@
 
 <br />
 
-Software engineer and machine learning researcher building useful systems at the edge of software, language, and hardware.
+Software engineer and machine learning researcher building useful systems where software, language, and hardware meet.
 
 <br />
 <br />
@@ -17,18 +17,18 @@ Software engineer and machine learning researcher building useful systems at the
 
 ## Skills
 
-`Machine Learning` `Speech & LLMs` `Python` `IoT` `Automation` `Data Science` `Mechatronics`
+Machine learning · Speech and LLMs · Python · IoT · Automation · Data science · Mechatronics
 
 ## Experience
 
-**MEng Electronic Research · Stellenbosch University**  
-Researching machine-learning applications for speech technology and large language models in South African and under-resourced language contexts.
+**MEng electronic research · Stellenbosch University**<br />
+Machine-learning applications for speech technology and large language models in South African and under-resourced language contexts.
 
-**Software & Digitalisation · Sinapi Biomedical**  
-Optimised and digitised biomedical manufacturing processes through IoT control systems.
+**Biomedical manufacturing**<br />
+Optimised and digitised manufacturing processes through IoT control systems.
 
-**Automation & Electronics · S-Plane Automation**  
-Built aerospace automation tooling and designed a stress-testing PCB for self-piloting electronics.
+**Aerospace automation and electronics**<br />
+Built automation tooling and designed a stress-testing PCB for self-piloting electronics.
 
 ## Selected work
 
@@ -40,7 +40,7 @@ Built aerospace automation tooling and designed a stress-testing PCB for self-pi
 
 <div align="center">
 
-<img src="./assets/signal.svg" alt="Animated orange signal and particles" width="100%" />
+<img src="./assets/footer.svg" alt="Animated orange signal and particles" width="100%" />
 
 *Build carefully. Keep the signal clear.*
 
