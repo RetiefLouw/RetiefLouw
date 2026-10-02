@@ -61,8 +61,8 @@
     <text x="0" y="0" fill="#FF8A3D" font-size="14" font-weight="600" letter-spacing="2.4">Retief Louw</text>
     <text x="0" y="104" fill="#F5F2ED" font-size="92" font-weight="700" letter-spacing="-3">I build</text>
     <text x="2" y="157" fill="#A9ADB2" font-size="22" font-weight="400" letter-spacing="0.3">software, intelligence and things that move.</text>
-    <path d="M2 193H1106" stroke="url(#orange)" stroke-width="2" stroke-linecap="round" fill="none" stroke-dasharray="780 120 70 340 540 100 30 260 960 180 140 420 50 300" opacity="0.86">
-      <animate attributeName="stroke-dashoffset" from="0" to="-4290" dur="7.2s" repeatCount="indefinite"/>
+    <path d="M2 193H1106" stroke="url(#orange)" stroke-width="2" stroke-linecap="round" fill="none" stroke-dasharray="3900 600 350 1700 2700 500 150 1300 4800 900 700 2100 250 1500" opacity="0.86">
+      <animate attributeName="stroke-dashoffset" from="0" to="-21450" dur="7.2s" repeatCount="indefinite"/>
     </path>
   </g>
 
